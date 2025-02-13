@@ -35,6 +35,28 @@ From a performance standpoint, Express has lower overhead and is slightly faster
 
 Overall, if you need a quick and flexible solution, Express is great, but for scalability, maintainability, built-in testability, and enterprise-grade APIs, NestJS is the better choice.
 
+Here's a detailed comparison table between **NestJS** and **Express.js** across various benchmarks:  
+
+| Benchmark              | **NestJS**                                       | **Express.js**                                   |
+|------------------------|------------------------------------------------|------------------------------------------------|
+| **Cost**               | Higher initial cost due to structure & learning curve | Lower initial cost, faster to start & deploy |
+| **Performance**        | Slightly slower due to extra abstractions but scalable | Faster in lightweight apps, can be optimized |
+| **Testability**        | High – built-in DI (Dependency Injection) makes testing easier | Lower – requires manual setup for DI and testing |
+| **Developer Experience** | Better for large-scale apps with TypeScript, DI, and modularity | Simple and flexible but can get messy in large projects |
+| **Feature Rich**       | Comes with built-in features like validation, interceptors, middleware, WebSockets | Minimalistic – requires third-party packages for advanced features |
+| **Time to Deliver Fast** | Slower at first due to structure & learning curve but faster in the long run | Faster initially but can slow down in large apps due to lack of structure |
+| **Scalability**        | Highly scalable – follows modular architecture with DI | Scalable but needs extra structuring effort |
+| **Community Support**  | Strong, growing community, backed by Angular team | Very strong, longest-running Node.js framework |
+| **Microservices Support** | Built-in support for microservices, GraphQL, gRPC, etc. | Needs additional setup for microservices |
+| **Learning Curve**     | Steeper due to TypeScript, DI, and architecture | Easier to learn – simple routing and middleware |
+| **Security**           | Built-in guards, interceptors, validation, and role-based access control | Needs additional middleware & manual security implementation |
+| **Use Case**          | Ideal for enterprise, large-scale, and microservices applications | Best for small to medium projects, quick prototypes |
+| **Maintenance**       | Easier due to structured approach, clear architecture | Can be difficult to maintain if structure is not planned well |
+
+### **Conclusion**  
+- **Choose NestJS** if you need **scalability, maintainability, and built-in features**. Best for **large-scale applications, enterprise solutions, and microservices**.  
+- **Choose Express.js** if you want **lightweight, high-performance, and quick prototyping**. Best for **small to medium applications and startups**.  
+
 # Reusability
 
 Create folders and reusable classes in such a way under sdk folder or as npm packages so that they can be unit tested independently and can be reused in
