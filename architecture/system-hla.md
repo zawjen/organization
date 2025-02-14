@@ -1,4 +1,4 @@
-# Tech Stack
+# System HLA - High Level Architecture
 
 Following Tech Stack will be used:
 
