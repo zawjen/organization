@@ -16,6 +16,7 @@ Following Tech Stack will be used:
 12. Google Meet for screen sharing calls
 13. GitHub organization repo to define engineering and non engineering processes
 14. GitHub project to report bugs
+15. Kong API Gateway
 
 ## NextJs Rational
 
