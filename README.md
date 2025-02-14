@@ -1,12 +1,10 @@
 # Welcome to Zawjen
-This is a collection of documents that are common across products, services and solutions.
+This repository is a collection of documents that defines Zawjen operations and practices.
 
 ## Engineering Practices
 
+- [Vision](vision/welcome.md)
 - [Common](common/welcome.md)
+- [Process](process/welcome.md)
+- [Requirements](requirements/welcome.md)
 - [Architecture](architecture/welcome.md)
-- [Development](development/welcome.md)
-- [Security](security/welcome.md)
-- [Support](support/welcome.md)
-- [Development](development/welcome.md)
-- [Project Management](pmo/welcome.md)

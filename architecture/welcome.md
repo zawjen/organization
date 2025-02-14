@@ -1,6 +1,4 @@
-# Welcome to Architecture Documents
+# Architecture Documents
 Documents that are related to application and information architecture.
 
-## Important Documents
-
-- [Tech Stack](tec-stack.md)
+- [tech stack](tec-stack.md)

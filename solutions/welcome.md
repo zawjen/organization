@@ -1,2 +1,0 @@
-# Solutions
-Solutions related documents
