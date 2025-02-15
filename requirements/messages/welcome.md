@@ -2,12 +2,11 @@
 Common messages to broadcast to various teams
 
 ## New Feature Announcement
-Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code. Install Cursor for AI code completion. Always remember and pray for it that this is a sadqah-e-jariah work to spread sincerity.
+*App Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Always remember and pray for it that this is a sadqah-e-jariah (charity) work to spread sincerity.
+[Ticket]()
 
-[Ticket](https://github.com/zawjen/auth-service/issues/1)
+[Documentation]()
 
-[Documentation](https://github.com/zawjen/organization/blob/main/requirements/zawjen-services/auth-service/welcome.md)
+[Repo]()
 
-[Repo](https://github.com/zawjen/auth-service)
-
-[Discussion](https://github.com/orgs/zawjen/discussions/3)
+[Discussion]()
