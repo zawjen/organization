@@ -8,7 +8,38 @@ ChatGPT prompts to generate requirements
 To be documented
 
 ### ReactNative Form
-To be documented
+Write ReactNative and Papper requirements document for mobile app with search textbox with audio button, exact search toggle button and filter button which shows a filter screen with hundreds of filters. Once selected, filter should stay saved during multiple app sessions. When a user types in any text in search textbox and hits Search button, the app should call REST API search-service at zawjen.app.net with JSON of search text, exact match toggle and all filters. The response of REST API search-service will be a JSON containing match found with following data:
+
+- Search text
+- Search filters
+- Exact match toggle
+- Count of matches found
+- Number of pages
+- Current page
+- Array of Dataset 
+- Each Dataset will array of Location
+- Each Dataset will have following attributes 
+
+Dataset Format: Books, PDFs, Images, Text, Audio, and Videos
+
+Dataset Type: Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality etc.
+
+Dataset Classification: 
+- Green: Verified as Truth
+- Yellow: Doubtful or requires further validation
+- Red: Identified as False or Fabricated
+
+Dataset Language
+- Arabic
+- English
+- One of 1000+ other languages 
+
+Dataset Date Created
+Dataset Date Updated
+
+Each Location will have following attributes
+- Complete text
+
 
 ## Backend Services
 

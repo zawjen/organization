@@ -3,8 +3,7 @@ This repository is a collection of documents that defines Zawjen operations and 
 
 ## Engineering Practices
 
-- [Vision](vision/welcome.md)
-- [Common](common/welcome.md)
-- [Process](process/welcome.md)
-- [Requirements](requirements/welcome.md)
-- [Architecture](architecture/welcome.md)
+- [vision](vision/welcome.md)
+- [process](process/welcome.md)
+- [requirements](requirements/welcome.md)
+- [architecture](architecture/welcome.md)
