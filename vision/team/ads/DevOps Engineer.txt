@@ -1,0 +1,14 @@
+⚙️ Volunteer DevOps Engineer Needed for Islamic Project (Sadaqah Jariyah)!⚙️
+
+We are seeking a DevOps Engineer to streamline deployment and infrastructure for www.zawjen.net—a platform dedicated to Quran & Hadith knowledge.
+
+🔹 Role: Automate CI/CD, cloud management, optimize performance
+🔹 Tech Stack: AWS, Docker, Kubernetes, GitHub Actions, Terraform
+🔹 Remote & Flexible—contribute in your free time!
+
+📖 The Prophet ﷺ said:
+"The most beloved people to Allah are those who bring the most benefit to others." (Tabarani)
+
+📩 DM me to be part of this Sadaqah Jariyah!
+
+#IslamicProject #DevOps #Cloud #CI/CD #SadaqahJariyah #Volunteer
