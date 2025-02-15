@@ -1,4 +1,5 @@
 # Architecture Documents
 Documents that are related to application and information architecture.
 
-- [system hla](system-hla.md)
+- [design](./design/welcome.md.md)
+- [conventions](./conventions/welcome.md)

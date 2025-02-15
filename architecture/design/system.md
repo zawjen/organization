@@ -1,5 +1,12 @@
 # System HLA - High Level Architecture
+Document about Zawjen.net high level architecture
 
+## Architecture Diagrams
+
+![modules](./img/system/modules-1.png)
+
+
+## Tech Stack
 Following Tech Stack will be used:
 
 1. Zawjen.net will be developed using NextJs and Shadcn due to data, search, filter, SEO, content heavy website with billions of pages like medium.com or wikipedia.com
