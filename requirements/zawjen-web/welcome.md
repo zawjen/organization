@@ -1,3 +1,3 @@
 # Zawjen Website Requirement Documents
 
-- [search](./search.md)
+- [search](./search/welcome.md)

@@ -8,7 +8,7 @@ This document is a data dictionary (or DDD Ubiquitous Language) for **Zawjen.net
 - It is implemented within Bounded Contexts, meaning different parts of the system may have different definitions for the same term.
 
 --- 
-## **1. Core Concepts**
+## **Core Concepts**
 
 ### **Dataset**
 A collection of digital content such as **Books, PDFs, Images, Text, Audio, and Videos**, used in zawjen.net search and filter system.
@@ -37,7 +37,22 @@ Categories of datasets covering domains like **Religion, Politics, Medicine, Law
 ### **Dataset Filters**  
 Dataset filters in **Zawjen.net** allow users to refine searches and locate specific content efficiently. Filters apply across **Books, PDFs, Images, Text, Audio, and Videos**, ensuring precise results based on various criteria.  
 
-#### **1. Content Type**  
+These dataset filters enable efficient **search, retrieval, and research** across **Zawjen.net**, ensuring users can find relevant and credible information effortlessly.
+
+### **Search & Filter System**
+A mechanism that allows users to find specific words or topics within selected datasets based on **language, topic, era, historical event, person, or source.**
+
+## **Filters**
+### **Dataset Language**
+Dataset can be in one or more languages. 
+
+### **Dataset Translated Language**
+Dataset can be translated from its original language into one or more languages. 
+
+### **Dataset Type**
+Categories of datasets covering domains like **Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality**, and more.
+
+#### **Content Type**  
 - **Books** – Filter by book title, author, publisher, or publication year.  
 - **PDFs** – Filter by document title, size, language, or page count.  
 - **Images** – Filter by resolution, format (JPEG, PNG, TIFF), or source.  
@@ -45,35 +60,52 @@ Dataset filters in **Zawjen.net** allow users to refine searches and locate spec
 - **Audio** – Filter by speaker, duration, topic, or language.  
 - **Videos** – Filter by title, speaker, length, or language.  
 
-#### **2. Language**  
+#### **Language**  
 - Supports **1000+ languages**, allowing users to select datasets in their preferred language.  
 - Enables **multilingual filtering**, showing results in multiple languages simultaneously.  
 
-#### **3. Topic & Category**  
+#### **Topic & Category**  
 - Categorized into **Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality,** and more.  
 - Users can refine searches based on the **domain of knowledge**.  
 
-#### **4. Historical Context**  
+#### **Historical Context**  
 - Filters based on **Era (Ancient, Medieval, Modern)**.  
 - Filters by **Historical Events**, linking datasets to specific occurrences.  
 - Filters by **Person**, showing content related to historical figures or scholars.  
 - Filters by **Location**, retrieving datasets relevant to specific geographical regions.  
 
-#### **5. Trustworthiness**  
+#### **Trustworthiness**  
 - **Green** – Verified as **Truth**.  
 - **Yellow** – **Doubtful** or requires **further validation**.  
 - **Red** – Identified as **False** or **Fabricated**.  
 
-#### **6. Source-Based Filtering**  
+#### **Source**  
 - Allows users to search based on **authentic references**.  
 - Users can filter by **author, researcher, scholar, or organization** responsible for the dataset.  
 
-#### **7. File Properties**  
+#### **File Properties**  
 - **Date Added** – Search for the most **recently uploaded** datasets.  
 - **File Size** – Filter datasets by **small, medium, or large file sizes**.  
 - **Format** – Choose from text-based, image-based, or multimedia datasets.  
 
-These dataset filters enable efficient **search, retrieval, and research** across **Zawjen.net**, ensuring users can find relevant and credible information effortlessly.
+### **Search Type**
+1. **Exact Match** – "Search for the exact word or phrase"  
+2. **Contains** – "Search for results that contain these words anywhere"  
+3. **Starts With** – "Search for words that start with this phrase"  
+4. **Ends With** – "Search for words that end with this phrase"  
+5. **Fuzzy Match** – "Search for similar words or misspellings"  
+6. **Wildcard Search** – "Use * or ? to replace letters (e.g., ‘te*t’ finds ‘test’ and ‘text’)"  
+7. **Boolean Search** – "Use AND, OR, NOT (e.g., ‘Hadith AND Arabic’)"  
+8. **Proximity Search** – "Find words near each other (e.g., ‘Hadith NEAR Arabic’)"  
+9. **Phrase Search** – "Search for an exact phrase using quotes (e.g., ‘golden words’)"  
+10. **Synonym Search** – "Find results with synonyms of the searched word"  
+11. **Case-Sensitive Search** – "Match results exactly as typed, including uppercase/lowercase"  
+12. **Language-Based Search** – "Filter results by language (Arabic, Urdu, English, etc.)"  
+13. **Date-Based Search** – "Filter results by publication or historical date"  
+14. **Topic-Based Search** – "Search within specific topics or categories"  
+15. **Author Search** – "Find content written by a specific author"  
+16. **Book-Based Search** – "Limit results to a specific book or collection"  
+17. **Advanced Search** – "Combine multiple filters for refined results"  
 
 ### **Content Classification**
 Datasets and research outputs are marked based on trustworthiness:
@@ -84,10 +116,7 @@ Datasets and research outputs are marked based on trustworthiness:
 ### **Language**
 Referring to spoken languages. There are approximately **7,168** spoken languages in the world today. However, about **40%** of these languages are endangered, with fewer than 1,000 speakers each. The most widely spoken languages include English, Mandarin Chinese, Hindi, Spanish, French, and Arabic. 
 
-### **Search & Filter System**
-A mechanism that allows users to find specific words or topics within selected datasets based on **language, topic, era, historical event, person, or source.**
-
-## **2. User Roles & Permissions**
+## **User Roles & Permissions**
 
 ### **General Users**
 - Can **search** and **filter** datasets.
@@ -115,7 +144,7 @@ A mechanism that allows users to find specific words or topics within selected d
 - Can **generate insights and reports** based on dataset usage, trends, and engagement.
 - Can **identify high-demand datasets** for prioritization.
 
-## **3. Functional Modules**
+## **Functional Modules**
 
 ### **Dataset Management System**
 - Allows **upload, edit, classify, and activate/deactivate datasets**.
@@ -139,7 +168,7 @@ A mechanism that allows users to find specific words or topics within selected d
 - Provides **evidence-backed knowledge** for users.
 - Helps classify datasets based on **ethical and factual correctness**.
 
-## **4. Vision Alignment**
+## **Vision Alignment**
 
 ### **Knowledge & Truth**
 - Providing **authentic and verified knowledge** to users worldwide.
