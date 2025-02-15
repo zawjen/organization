@@ -7,4 +7,7 @@ Documents that are related to system requirements.
 - [zawjen-mobile](./zawjen-mobile/welcome.md)
 - [zawjen-ai](./zawjen-ai/welcome.md)
 - [zawjen-wordpress](./zawjen-wordpress/welcome.md)
+- [zawjen-services](./zawjen-services/welcome.md)
+- [prompts](./prompts/welcome.md)
+- [messages](./messages/welcome.md)
 
