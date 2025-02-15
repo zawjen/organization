@@ -108,8 +108,8 @@ jest --coverage
 
 ## 9. Running Tests
 
-- Run all tests: `npm test`
-- Watch mode: `npm test -- --watch`
+- Run all tests: `yarn test`
+- Watch mode: `yarn test -- --watch`
 - Run a single test file: `jest button.test.ts`
 
 ## 10. Commit Messages
