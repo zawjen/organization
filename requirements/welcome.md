@@ -1,13 +1,16 @@
 # Requirement Documents
 Documents that are related to system requirements.
 
+## Modules Documents
+- [web-zawjen-admin](./web-zawjen-admin/welcome.md)
+- [web-zawjen](./web-zawjen/welcome.md)
+- [app-zawjen](./app-zawjen/welcome.md)
+- [ai-zawjen](./ai-zawjen/welcome.md)
+- [wordpress-zawjen](./wordpress-zawjen/welcome.md)
+- [services-zawjen](./services-zawjen/welcome.md)
+
+## Supporting Documents
 - [data-dictionary](./data-dictionary/welcome.md)
-- [zawjen-admin](./zawjen-admin/welcome.md)
-- [zawjen-web](./zawjen-web/welcome.md)
-- [zawjen-mobile](./zawjen-mobile/welcome.md)
-- [zawjen-ai](./zawjen-ai/welcome.md)
-- [zawjen-wordpress](./zawjen-wordpress/welcome.md)
-- [zawjen-services](./zawjen-services/welcome.md)
 - [prompts](./prompts/welcome.md)
 - [messages](./messages/welcome.md)
 
