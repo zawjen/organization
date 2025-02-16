@@ -28,17 +28,14 @@ Feature Details
 - User can clean history or turn off history using REST API call to user-history service
 - Write each Request and its Response JSON for all the services and endpoints called in this document at the end of document
 - All microservice endpoints are available at zawjen.app.net
-
-Write sections about following general requirements:
-1- Follow zawjen.net coding convention
-2- Write 100% coverage unit tests
-3- Solution must be highly performant, low on memory, cpu and battery
-4. Highly scalable and maintainable
-5. Following zawjen.net clean coding principals
-6. Use try-catch and log errors
-7. See Zawjen.net [data dictionary](https://github.com/zawjen/organization/blob/main/requirements/data-dictionary/welcome.md) for further details about the terms used in this document
-8. See [api-contracts](https://github.com/zawjen/api-contracts) repo for microservice request and response JSON
-9. Design mobile-first UX for better user experience and google ranking
+- Follow zawjen.net coding convention and clean coding principals
+- Write 100% coverage unit tests
+- Solution must be highly performant, low on memory, cpu and battery
+- Highly scalable and maintainable
+- Use try-catch and log errors
+- See Zawjen.net [data dictionary](https://github.com/zawjen/organization/blob/main/requirements/data-dictionary/welcome.md) for further details about the terms used in this document
+- See [api-contracts](https://github.com/zawjen/api-contracts) repo for microservice request and response JSON
+- Design mobile-first UX for better user experience and google ranking
 
 JSON Response
 - Search text
@@ -49,33 +46,20 @@ JSON Response
 - Array of Dataset 
 - Each Dataset will array of Location
 - Each Dataset will have following attributes 
-
-Dataset Format: Books, PDFs, Images, Text, Audio, and Videos
-
-Dataset Type: Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality etc.
-
-Dataset Classification: 
-- Green: Verified as Truth
-- Yellow: Doubtful or requires further validation
-- Red: Identified as False or Fabricated
-
-Dataset Language
-- Arabic
-- English
-- One of 1000+ other languages 
-
-Dataset Date Created
-Dataset Date Updated
-
-Each Location will have following attributes
-- text
-
-
-
-
-
-
-
+- Dataset Format: Books, PDFs, Images, Text, Audio, and Videos
+- Dataset Type: Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality etc.
+- Dataset Classification: 
+    - Green: Verified as Truth
+    - Yellow: Doubtful or requires further validation
+    - Red: Identified as False or Fabricated
+- Dataset Language
+    - Arabic
+    - English
+    - One of 1000+ other languages 
+- Dataset Date Created
+- Dataset Date Updated
+- Each Location will have following attributes
+    - text
 
 ### App
 Write detailed Search Feature requirements document for a developer. Write code for each ReactNative/Papper UI, complete functionality and its unit tests using Jest mentioned below
@@ -101,17 +85,14 @@ Feature Details
 - User can clean history or turn off history using REST API call to user-history service
 - Write each Request and its Response JSON for all the services and endpoints called in this document at the end of document
 - All microservice endpoints are available at zawjen.app.net
-
-Write sections about following general requirements:
-1- Follow zawjen.net coding convention
-2- Write 100% coverage unit tests
-3- Solution must be highly performant, low on memory, cpu and battery
-4. Highly scalable and maintainable
-5. Following zawjen.net clean coding principals
-6. Use try-catch and log errors
-7. See Zawjen.net [data dictionary](https://github.com/zawjen/organization/blob/main/requirements/data-dictionary/welcome.md) for further details about the terms used in this document
-8. See [api-contracts](https://github.com/zawjen/api-contracts) repo for microservice request and response JSON
-9. Design mobile-first UX for better user experience and google ranking
+- Follow zawjen.net coding convention and clean coding principals
+- Write 100% coverage unit tests
+- Solution must be highly performant, low on memory, cpu and battery
+- Highly scalable and maintainable
+- Use try-catch and log errors
+- See Zawjen.net [data dictionary](https://github.com/zawjen/organization/blob/main/requirements/data-dictionary/welcome.md) for further details about the terms used in this document
+- See [api-contracts](https://github.com/zawjen/api-contracts) repo for microservice request and response JSON
+- Design mobile-first UX for better user experience and google ranking
 
 JSON Response
 - Search text
@@ -122,32 +103,23 @@ JSON Response
 - Array of Dataset 
 - Each Dataset will array of Location
 - Each Dataset will have following attributes 
-
-Dataset Format: Books, PDFs, Images, Text, Audio, and Videos
-
-Dataset Type: Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality etc.
-
-Dataset Classification: 
-- Green: Verified as Truth
-- Yellow: Doubtful or requires further validation
-- Red: Identified as False or Fabricated
-
-Dataset Language
-- Arabic
-- English
-- One of 1000+ other languages 
-
-Dataset Date Created
-Dataset Date Updated
-
-Each Location will have following attributes
-- text
-
-
-
+- Dataset Format: Books, PDFs, Images, Text, Audio, and Videos
+- Dataset Type: Religion, Politics, Medicine, Law, Sociology, Technology, Education, Economics, History, Ethics, Spirituality etc.
+- Dataset Classification: 
+    - Green: Verified as Truth
+    - Yellow: Doubtful or requires further validation
+    - Red: Identified as False or Fabricated
+- Dataset Language
+    - Arabic
+    - English
+    - One of 1000+ other languages 
+- Dataset Date Created
+- Dataset Date Updated
+- Each Location will have following attributes
+    - text
 
 ## Backend Services
-
+---
 ### REST Service
 We have to build [your-service-name] using NestJS which will be called by NextJs website and ReactNative mobile app. We are using Kong API Gateway which will be used as a gateway to access [your-service-name] from mobile or website. Kong API Gateway or [your-service-name] has to authenticate user using Keycloak.
 
@@ -173,3 +145,39 @@ All other requests must be denied as they are DDoS attacks.
 Add necessary details so [your-service-name] stays highly secure and must be on SSL 
 
 ### gRPC Service
+### CLI
+Write detailed Upload Dataset CLI requirements document for a developer. Write code for each Python class, complete functionality and its unit tests using pytest mentioned below. Follow all instructions below. Do not skip any requirement below.
+
+The CLI built using following tech stack
+1- Python 
+
+Feature Details
+- All classes must be under sdk folder
+- Program should start from main.py
+- A command line argument class that accepts following arguments
+    - --folders: Optional comma separated list of JSON dataset folder paths
+    - --files: Optional comma separated list of JSON dataset file paths
+    - --host: Elasticsearch host (e.g., "localhost", "192.168.1.100")
+    - --port: Elasticsearch port (default is 9200)
+    - --scheme: Elasticsearch Connection scheme (http or https)
+    - --username: Optional Elasticsearch username
+    - --password: Optional Elasticsearch password
+    - --api-key: Optional Elasticsearch API Key
+    - --index: ElasticSearch index name where JSON will be uploaded
+    - --ndjson: Are JSON files in NDJSON format [y/n]
+    - --batch-size: Optional Batch size to upload to ElasticSearch 
+- A class which iterates over list of folders and files and create threads to upload JSON files in ElasticSearch
+- if ndjson=n then convert JSON to NDJSON before batch upload
+- A class to upload JSON files to specified index. Send batches of batch-size documents at a time. if batch-size is not specified upload data in batches of 5,000 - 10,000 documents per request.
+- Time spend on important or long running steps should be logged using a log class which will have log(self, message, start_time) to calculate time_spent
+- if username and password are specified, use them to connect to Elasticsearch. If api-key is specified, use it to connect to Elasticsearch
+- Follow zawjen.net coding convention and clean coding principals
+- Write 100% coverage unit tests
+- Solution must be highly performant, low on memory, cpu and battery
+- Highly scalable and maintainable
+- Use try-catch and log errors
+- See Zawjen.net [data dictionary](https://github.com/zawjen/organization/blob/main/requirements/data-dictionary/welcome.md) for further details about the terms used in this document
+- write code for each class
+- write 100% test coverage using pytest.
+- Mock Elasticsearch for unit testing.
+- add detailed steps to install ElasticSearch as docker and connect it using Python
