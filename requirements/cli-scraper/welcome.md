@@ -22,6 +22,11 @@ scrapper_cli/
     └── test_logger.py
 ```
 
+#### Scrapping Target
+Scrape and generate JSON datasets for following:
+
+- [scrapped-datasets](./scrapped-datasets.md)
+
 ### 2. CLI Arguments
 
 The command-line arguments are parsed by the `CliArgs` class. The accepted arguments are summarized in the following table:
