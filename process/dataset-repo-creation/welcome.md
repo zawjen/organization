@@ -23,13 +23,13 @@ Follow these steps to create a repository with a structured naming convention:
 2. Click on the **New Repository** button.
 3. Set the **Repository Name** in the following format:
    ```
-   book-name-year-city-publisher
+   ds-book-name-year-city-publisher
    ```
    Example:
    ```
-   introduction-to-islam-2005-karachi-darul-ishaat
+   ds-introduction-to-islam-2005-karachi-darul-ishaat
    ```
-4. Select the **Public** option (or **Private**, if necessary).
+4. Select the **Public** option.
 5. Check the **Add a README file** checkbox to create a `README.md` file.
 6. Click **Create Repository**.
 
@@ -58,11 +58,11 @@ Follow these steps to create a repository with a structured naming convention:
    - `txt`
    - `json`
 3. Inside each folder, create an empty `.gitkeep` file to ensure the folder is included in version control.
-   - Open a terminal or command prompt and run:
+   - Or run following commond. Open a terminal or command prompt and run:
      ```sh
      touch pdf/.gitkeep png/.gitkeep txt/.gitkeep json/.gitkeep
      ```
-4. Commit and push the changes to GitHub:
+4. Use command below to upload PDFs to Commit and push the changes to GitHub or use **GitHub Desktop** to publish changes (See below):
    ```sh
    git add .
    git commit -m "Added required folders and .gitkeep files"
