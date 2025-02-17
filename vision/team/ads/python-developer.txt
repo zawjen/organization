@@ -1,31 +1,19 @@
 📢 Volunteer Python Developers Needed for Islamic Project (Sadaqah Jariyah)! 📢
 
-
-
 We are building www.zawjen.net—an Islamic knowledge platform dedicated to the Quran and Hadith. Join us as a volunteer Python developer and earn Sadaqah Jariyah by serving Deen. 🕌💻
 
-
-
 🔹 Tech Stack: Python (FastAPI preferred)
-
 🔹 Project Goal: Making Islamic knowledge accessible globally
-
 🔹 Remote & Flexible—contribute in your free time!
 
-
-
 📖 Serving the Quran & Hadith:
-
-
 
 💬 The Prophet ﷺ said:
 
 "The best among you are those who learn the Quran and teach it." (Bukhari 5027)
 
-
-
-🌟 Be a part of this rewarding journey! DM me with your CV or reach out to discuss how you can help!
-
-
+🌟 Be a part of this nobel cause and rewarding journey! To contribute to this Sadaqah Jariyah!
+- Connect https://www.linkedin.com/in/syedrafey/ and share interest
+- Or Follow instruction at https://zawjen.net/join/
 
 #IslamicProject #SadaqahJariyah #PythonDevelopers #OpenSource #Django #FastAPI #Hadith #Quran #Volunteer
