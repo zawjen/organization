@@ -23,11 +23,11 @@ Follow these steps to create a repository with a structured naming convention:
 2. Click on the **New Repository** button.
 3. Set the **Repository Name** in the following format:
    ```
-   book-name-year-city-publisher
+   ds-book-name-year-city-publisher
    ```
    Example:
    ```
-   introduction-to-islam-2005-karachi-darul-ishaat
+   ds-introduction-to-islam-2005-karachi-darul-ishaat
    ```
 4. Select the **Public** option.
 5. Check the **Add a README file** checkbox to create a `README.md` file.
