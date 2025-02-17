@@ -27,12 +27,12 @@ Common messages to broadcast to various teams
 
 
 ### CLI
-*CLI Development* : Anyone interested in developing [cli-dataset-uploader] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion.  Use @ tag people for discussion. Always remember and pray for it that your sadqah-e-jariah (charity) work to spread sincerity.
+*CLI Development* : Anyone interested in developing [cli-scraper] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion.  Use @ tag people for discussion. Always remember and pray for it that your sadqah-e-jariah (charity) work to spread sincerity.
 
-[Ticket](https://github.com/zawjen/cli-dataset-uploader/issues/1)
+[Ticket](https://github.com/zawjen/cli-zawjen/issues/4)
 
-[Documentation](https://github.com/zawjen/organization/blob/main/requirements/cli-dataset-uploader/welcome.md)
+[Documentation]()
 
-[Repo](https://github.com/zawjen/cli-dataset-uploader)
+[Repo](https://github.com/zawjen/cli-scraper)
 
-[Discussion](https://github.com/orgs/zawjen/discussions/8)
+[Discussion]()
