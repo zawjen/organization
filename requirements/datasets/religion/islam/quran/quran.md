@@ -23,7 +23,7 @@ For each Quran dataset, store following information:
 }
 ```
 
-See complete language codes at [lang codes](./lang.md)
+See complete `lang` (language codes) at [lang codes](../../../languages/lang.md)
 
 ### Surah Json
 Each `Surah` will be stored as separate Json.
