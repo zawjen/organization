@@ -1,4 +1,4 @@
 # Design documents
 
-- [system](./system.md)
+- [system](./hla.md)
 - [infra](./infra.md)
