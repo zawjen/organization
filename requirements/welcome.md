@@ -5,3 +5,4 @@
 - [app](./app/welcome.md)
 - [services](./services/welcome.md)
 - [ai](./ai/welcome.md)
+- [cli](./cli/welcome.md)

@@ -19,7 +19,7 @@ This repository is a collection of documents that defines Zawjen operations and 
 - [DevOps](./vision/team/on-boarding/devops.md) - Automate deployment and infrastructure management.  
 - [Digital Marketing](./vision/team/on-boarding/digital-marketing.md) - Promote and grow the platform digitally.  
 - [Mentors](./vision/team/on-boarding/mentors.md) - Mentor various technical and non-technical teams.  
-- [Mobile](./vision/team/on-boarding/mobile.md) - Develop mobile applications for seamless user experience.  
+- [App](./vision/team/on-boarding/app.md) - Develop mobile apps for seamless user experience.  
 - [Product Owners](./vision/team/on-boarding/product-owners.md) - Define and prioritize product goals and features.  
 - [Proofreading](./vision/team/on-boarding/proofreading.md) - Review and refine content for accuracy and clarity.  
 - [QA](./vision/team/on-boarding/qa.md) - Ensure software quality through testing and validation.  
