@@ -9,4 +9,3 @@
 - Install [tools](../../practices/tools.md)
 - Install [extensions](../../practices/extensions.md)
 - Contribute by working on [issues](https://github.com/orgs/zawjen/projects/8)
-- Download repo [web-zawjen](https://github.com/zawjen/web-zawjen)
