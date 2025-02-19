@@ -29,3 +29,19 @@ This repository is a collection of documents that defines Zawjen operations and 
 - [Web](./vision/team/on-boarding/web.md) - Build and enhance web applications.  
 - [WordPress](./vision/team/on-boarding/wordpress.md) - Develop and maintain WordPress-based solutions.  
 
+## Join Us
+If you are interested in participating, to make this vision of **Sincerity**, Support, and **Green** Knowledge a reality, please visit <https://zawjen.net/join/>
+
+## Social Links
+Please follow us on our social outlets
+
+[GitHub](https://github.com/zawjen)
+[LinkedIn](https://www.linkedin.com/in/zawjen-585497350/)
+[Facebook](https://www.facebook.com/profile.php?id=61573219911797)
+[YouTube](https://www.youtube.com/@Zawjen)
+[Instagram](https://www.instagram.com/zawjen_net/)
+[TikTok](https://www.tiktok.com/@zawjen_net)
+[Telegram](https://telegram.org/)
+[Discord](https://discord.com/discovery/applications)
+[Snapchat](https://accounts.snapchat.com/v2/welcome)
+[Pinterest](https://nz.pinterest.com/zawjen/)
