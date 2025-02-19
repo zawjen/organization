@@ -1,6 +1,6 @@
 # Open Governance & Contribution Guidelines for Zawjen.net
 
-Zawjen is **not** a technical project. It is on a mission to spread `sincerity` the Quran. Its leadership and governance practices should be aligned with the principles of `sincerity` as established by the Quran. The of `sincerity` is loud and clear **"Indeed, those who believed and those who were Jews or Christians or Sabians---those (among them) who believed in Allah and the Last Day and did righteousness---will have their reward with their Lord, and no fear will there be concerning them, nor will they grieve."** (Quran 2:62)
+Zawjen is **not** a technical project. It is on a mission to spread the  `sincerity` of the Quran. Zawjen leadership and governance practices should be aligned with the principle of `sincerity` as established by the Quran. The principle of `sincerity` is loud and clear **"Indeed, those who believed and those who were Jews or Christians or Sabians---those (among them) who believed in Allah and the Last Day and did righteousness---will have their reward with their Lord, and no fear will there be concerning them, nor will they grieve."** (Quran 2:62)
 
 This document outlines the practices and guidelines for managing the Zawjen.net project using open source principles. It covers transparent governance, decision-making processes, leadership diversity, community role invitations, and fair assignment of pull request reviews.
 
