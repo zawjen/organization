@@ -1,7 +1,7 @@
 ![alt text](vision/img/home/zawjen-al-tawheed.jpeg)
 
 # Welcome to Zawjen
-Zawjen is **not** a technical project. It is on a mission to spread `sincerity` of Quran. Its leadership and its governance practices should be aligned with principals of `sincerity` as established by Quran.
+Zawjen is **not** a technical project. It is on a mission to spread `sincerity` the Quran. Its leadership and its governance practices should be aligned with principles of `sincerity` as established by the Quran.
 
 This repository is a collection of documents that defines Zawjen operations and practices.
 ## About Us
