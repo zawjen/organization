@@ -4,6 +4,7 @@ Common messages to broadcast to various teams
 ## New Feature Announcement
 
 ### Web
+```md
 *Web Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion.  Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
 
 [Ticket]()
@@ -13,8 +14,10 @@ Common messages to broadcast to various teams
 [Repo](https://github.com/zawjen/web-zawjen)
 
 [Discussion](https://github.com/orgs/zawjen/discussions/7)
+```
 
 ### App
+```md
 *App Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion.  Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
 
 [Ticket]()
@@ -24,9 +27,10 @@ Common messages to broadcast to various teams
 [Repo](https://github.com/zawjen/app-zawjen)
 
 [Discussion](https://github.com/orgs/zawjen/discussions/5)
-
+```
 
 ### CLI
+```md
 *CLI Development* : Anyone interested in developing [cli-scraper] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion.  Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
 
 [Ticket](https://github.com/zawjen/cli-zawjen/issues/4)
@@ -36,3 +40,4 @@ Common messages to broadcast to various teams
 [Repo](https://github.com/zawjen/cli-scraper)
 
 [Discussion]()
+```

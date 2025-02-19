@@ -7,3 +7,4 @@ Documents that are related to processes and SLA.
 - [ai](./ai/welcome.md)
 - [git](./git/welcome.md)
 - [license](./license/welcome.md)
+- [governance](./governance/welcome.md)

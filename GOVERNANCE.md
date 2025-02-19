@@ -16,6 +16,20 @@ The `GOVERNANCE.md` file defines the project’s leadership, decision-making pro
   - ❌ `-1` means “reject” (with a reason provided)
 - All votes and discussions are documented publicly.
 
+### 1.2 How to vote?
+A user can add their vote in a GitHub issue using Emoji reactions in the first comment with text `Votes`:
+
+- ✅ **Thumbs Up (👍)** → Approve  
+- ❌ **Thumbs Down (👎)** → Reject  
+- 🟡 **Neutral (😐)** → Neutral  
+
+For **(👎) Reject**, please specify a reason in comments.
+
+#### **Steps:**  
+1. Open the GitHub issue.  
+2. Click the **reaction button** (😊) in the top right corner of the post.  
+3. Select **👍, 👎, or 😐** to vote.  
+
 ### 1.2 Roles & Responsibilities
 
 #### Contributors
