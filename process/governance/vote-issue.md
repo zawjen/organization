@@ -1,6 +1,6 @@
 # How to create vote ticket
 
-- Create GitHub issue with title: **[vote] - your voting title. Vote open for N days**
+- Create GitHub issue with title: **[vote] - your voting title. Open for N days**
 - Make sure issue is:
   - Created in project [prj-zawjen](https://github.com/orgs/zawjen/projects/8)
   - Select `zawjen/organization` as repo 
