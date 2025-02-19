@@ -1,3 +1,5 @@
+![alt text](vision/img/home/zawjen-al-tawheed.jpeg)
+
 # Welcome to Zawjen
 This repository is a collection of documents that defines Zawjen operations and practices.
 
@@ -35,13 +37,13 @@ If you are interested in participating, to make this vision of **Sincerity**, S
 ## Social Links
 Please follow us on our social outlets
 
-[GitHub](https://github.com/zawjen)
-[LinkedIn](https://www.linkedin.com/in/zawjen-585497350/)
-[Facebook](https://www.facebook.com/profile.php?id=61573219911797)
-[YouTube](https://www.youtube.com/@Zawjen)
-[Instagram](https://www.instagram.com/zawjen_net/)
-[TikTok](https://www.tiktok.com/@zawjen_net)
-[Telegram](https://telegram.org/)
-[Discord](https://discord.com/discovery/applications)
-[Snapchat](https://accounts.snapchat.com/v2/welcome)
-[Pinterest](https://nz.pinterest.com/zawjen/)
+- [GitHub](https://github.com/zawjen)
+- [LinkedIn](https://www.linkedin.com/in/zawjen-585497350/)
+- [Facebook](https://www.facebook.com/profile.php?id=61573219911797)
+- [YouTube](https://www.youtube.com/@Zawjen)
+- [Instagram](https://www.instagram.com/zawjen_net/)
+- [TikTok](https://www.tiktok.com/@zawjen_net)
+- [Telegram](https://telegram.org/)
+- [Discord](https://discord.com/discovery/applications)
+- [Snapchat](https://accounts.snapchat.com/v2/welcome)
+- [Pinterest](https://nz.pinterest.com/zawjen/)
