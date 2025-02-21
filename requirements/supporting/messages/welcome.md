@@ -3,7 +3,7 @@ Common messages to broadcast to various teams
 
 ## Web
 ```md
-*Web Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
+*Web Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work spreads sincerity around the globe.
 
 [Ticket]()
 
@@ -18,7 +18,7 @@ Stay blessed🍁
 
 ## App
 ```md
-*App Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
+*App Development* : Anyone interested in developing [this-feature] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work spreads sincerity around the globe.
 
 [Ticket]()
 
@@ -33,7 +33,7 @@ Stay blessed🍁
 
 ## CLI
 ```md
-*CLI Development* : Anyone interested in developing [cli-scraper] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
+*CLI Development* : Anyone interested in developing [cli-scraper] can assign ticket to himself. Use ChatGPT to generate code to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work spreads sincerity around the globe.
 
 [Ticket](https://github.com/zawjen/cli-zawjen/issues/4)
 
@@ -48,7 +48,7 @@ Stay blessed🍁
 
 ## Research
 ```md
-*Research Task* : Anyone interested in [Free AI PR Review Tool] research can assign ticket to himself. Use ChatGPT/perplexity.ai etc. to perform research to do more charity quickly. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work to spread sincerity around the globe.
+*Research Task* : Anyone interested in [Free AI PR Review Tool] research can assign ticket to himself. Use ChatGPT/perplexity.ai etc. to perform research to do more charity quickly. Use @ tag people for discussion. Always remember and pray, that your sadqah-e-jariah (charity) work spreads sincerity around the globe.
 
 [Ticket](https://github.com/zawjen/organization/issues/16)
 
