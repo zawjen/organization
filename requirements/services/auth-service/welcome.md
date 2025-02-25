@@ -1,4 +1,4 @@
-# Auth-Service Development Guide
+# auth-service
 
 ## Overview
 We will build an **Auth-Service** using **NestJS** that will handle user authentication for both a **Next.js website** and a **React Native mobile app**. The authentication will be managed through **Keycloak**, with **Kong API Gateway** acting as the entry point for all authentication requests. This document outlines the step-by-step process to set up **Auth-Service**, **Kong API Gateway**, and **Keycloak** using **Docker** and **Kubernetes**.

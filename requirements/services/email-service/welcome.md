@@ -1,4 +1,4 @@
-# Email-Service Development Guide
+# email-service
 
 ## Overview
 We will build an **Email-Service** using **NestJS** for bulk sending of billions of transactional emails. The service will use **Postal** as the email server and will be deployed using **Docker**, **Kubernetes**, and **Kong API Gateway** for high scalability and performance. This document outlines the step-by-step process to set up **Email-Service**, **Postal**, and integrate them with **Next.js** and **React Native** applications with **SSL/TLS encryption at all levels**.
