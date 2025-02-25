@@ -7,7 +7,7 @@ Common messages to broadcast to various teams
 
 [Ticket]()
 
-[Documentation]()
+[Documentation](https://github.com/zawjen/organization/blob/main/requirements/web/web-zawjen-admin/login/welcome.md)
 
 [Repo](https://github.com/zawjen/web-zawjen)
 

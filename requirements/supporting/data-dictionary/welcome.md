@@ -116,6 +116,19 @@ Datasets and research outputs are marked based on trustworthiness:
 ### **Language**
 Referring to spoken languages. There are approximately **7,168** spoken languages in the world today. However, about **40%** of these languages are endangered, with fewer than 1,000 speakers each. The most widely spoken languages include English, Mandarin Chinese, Hindi, Spanish, French, and Arabic. 
 
+## **Social Login**
+Web and Apps could be Login using:
+
+1. Email and password Or
+2. Social Logins
+  - Google (OAuth 2.0)
+  - Apple (Sign in with Apple)
+  - Facebook (Meta OAuth)
+  - Twitter/X (OAuth 2.0)
+  - LinkedIn (OAuth 2.0)
+  - GitHub (OAuth 2.0)
+  - Microsoft (Microsoft Account)
+
 ## **User Roles & Permissions**
 
 ### **General Users**
