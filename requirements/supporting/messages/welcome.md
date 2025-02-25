@@ -31,17 +31,15 @@ Stay blessed🍁
 
 ## CLI
 ```md
-*CLI Development* : Anyone interested in developing [*cli-scraper*] can assign ticket to himself. Use ChatGPT/perplexity.ai etc. to write documents/code/unit tests to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always pray, that your sadqah-e-jariah (charity) work spreads sincerity around the globe.
+*Data Science & CLI Development* : Anyone interested in developing [*cli-dataset-tagger*] can assign ticket to himself. Use ChatGPT/perplexity.ai etc. to write documents/code/unit tests to do more charity quickly. Install Cursor for AI code completion. Use @ tag people for discussion. Always pray, that your sadqah-e-jariah (charity) work spreads sincerity around the globe.
 
-[Ticket](https://github.com/zawjen/cli-zawjen/issues/4)
+[Ticket](https://github.com/zawjen/cli-dataset-tagger/issues/2)
 
-[Documentation](https://github.com/zawjen/organization/blob/main/requirements/cli-scraper/welcome.md)
+[Documentation](https://github.com/zawjen/organization/blob/main/requirements/cli/cli-dataset-tagger/welcome.md)
 
-[Repo](https://github.com/zawjen/cli-scraper)
+[Repo](https://github.com/zawjen/cli-dataset-tagger)
 
-[Discussion]()
-
-Stay blessed🍁
+I pray for your health and success 🍁
 ```
 
 ## Research
