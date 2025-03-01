@@ -8,3 +8,4 @@ Documents that are related to processes and SLA.
 - [git](./git/welcome.md)
 - [license](./license/welcome.md)
 - [governance](./governance/welcome.md)
+- [blog](./blog/welcome.md)
