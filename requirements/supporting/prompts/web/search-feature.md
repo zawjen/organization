@@ -1,6 +1,4 @@
-# Prompts - web
-
-## Search Feature
+# search-feature
 Write detailed Search Feature requirements document for a developer. Write code for each NextJs/Shadcn UI, complete functionality and its unit tests using Jest mentioned below
 
 The website is using following tech stack

@@ -1,6 +1,5 @@
-# Prompts - document
+# github-dataset-repo-creation-process
 
-## GitHub Process - Dataset Repo Creation
 Write a document describing following
 
 - A process to install git and GitHub Desktop

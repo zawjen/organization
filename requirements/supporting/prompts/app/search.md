@@ -1,6 +1,4 @@
-# Prompts - app
-
-## Search Feature
+# search
 Write detailed Search Feature requirements document for a developer. Write code for each ReactNative/Papper UI, complete functionality and its unit tests using Jest mentioned below
 
 The website is using following tech stack
