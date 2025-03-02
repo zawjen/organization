@@ -1,4 +1,4 @@
-# **CLI OCR - Requirements Document**
+# **OCR CLI - Requirements Document**
 
 ## **1. Overview**
 The OCR CLI is a command-line tool built in Python that extracts text from PDF files using Optical Character Recognition (OCR). The program processes individual PDF files or entire directories containing PDF files, leveraging multithreading for performance.
@@ -53,9 +53,10 @@ Logs messages along with time spent on important operations.
 ### **5.4 FileOcr**
 - Converts PDFs to PNG images.
 - Extracts text using OCR engines.
+- Accepts an OCR engine object (`EngineEasyOCR`, `EngineDocling`, `EngineMarker`, or `EngineVLM`).
 
 ### **5.5 OCR Engines (EngineEasyOCR, EngineDocling, EngineMarker, EngineVLM)**
-- Wrapper classes for respective OCR engines.
+- Wrapper classes for respective OCR engines, implementing the OCR functionality for each.
 
 ## **6. Exception Handling & Error Logging**
 - Try-catch blocks to handle errors gracefully.
@@ -108,6 +109,7 @@ class Logger:
 import threading
 import os
 from sdk.file_ocr import FileOcr
+from sdk.engine_easyocr import EngineEasyOCR
 
 class OcrManager:
     def __init__(self, pdf_files, lang, threads):
@@ -118,7 +120,8 @@ class OcrManager:
     def start_ocr(self):
         threads = []
         for pdf in self.pdf_files:
-            file_ocr = FileOcr(pdf, self.lang)
+            ocr_engine = EngineEasyOCR(self.lang)
+            file_ocr = FileOcr(pdf, ocr_engine)
             thread = threading.Thread(target=file_ocr.start)
             threads.append(thread)
             thread.start()
@@ -132,9 +135,9 @@ import time
 from sdk.logger import Logger
 
 class FileOcr:
-    def __init__(self, pdf_file, lang):
+    def __init__(self, pdf_file, ocr_engine):
         self.pdf_file = pdf_file
-        self.lang = lang
+        self.ocr_engine = ocr_engine
         self.logger = Logger()
 
     def start(self):
@@ -147,36 +150,19 @@ class FileOcr:
         pass  # Convert PDF to PNG (Placeholder)
 
     def extract_text(self):
-        pass  # Extract text using OCR (Placeholder)
+        self.ocr_engine.perform_ocr()
 ```
 
 ```python
-# tests/test_cli_args.py
-from sdk.cli_args import CliArgs
+# sdk/engine_easyocr.py
+import easyocr
 
-def test_cli_args():
-    args = CliArgs()
-    assert args is not None
-```
+class EngineEasyOCR:
+    def __init__(self, lang):
+        self.reader = easyocr.Reader([lang])
 
-```python
-# tests/test_logger.py
-from sdk.logger import Logger
-import time
-
-def test_logger():
-    logger = Logger()
-    start_time = time.time()
-    logger.log("Test Message", start_time)
-```
-
-```python
-# tests/test_ocr_manager.py
-from sdk.ocr_manager import OcrManager
-
-def test_ocr_manager():
-    ocr_manager = OcrManager(["test.pdf"], "eng", 5)
-    assert ocr_manager.threads <= 5
+    def perform_ocr(self):
+        pass  # Perform OCR using EasyOCR (Placeholder)
 ```
 ```
 
