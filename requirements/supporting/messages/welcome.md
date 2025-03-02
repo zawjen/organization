@@ -3,7 +3,7 @@ Use these messages to communicate tasks to various teams
 
 - [web](web.md)
 - [app](app.md)
-- [app](cli.md)
-- [app](service.md.md)
-- [app](documentation.md.md)
-- [app](research.md.md)
+- [cli](cli.md)
+- [service](service.md.md)
+- [documentation](documentation.md)
+- [research](research.md.md)
