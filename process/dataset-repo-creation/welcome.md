@@ -1,9 +1,11 @@
 # Process for Installing Git and GitHub Desktop, and Managing a GitHub Repository for Books
 
 ### 1. Installing Git and GitHub Desktop
+
 Follow these steps to install Git and GitHub Desktop on your system:
 
 #### Installing Git
+
 1. Download Git from the official website: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 2. Run the installer and follow the default setup instructions.
 3. Verify the installation by opening a terminal or command prompt and running:
@@ -12,11 +14,13 @@ Follow these steps to install Git and GitHub Desktop on your system:
    ```
 
 #### Installing GitHub Desktop
+
 1. Download GitHub Desktop from [https://desktop.github.com/](https://desktop.github.com/)
 2. Run the installer and follow the setup instructions.
 3. Log in to your GitHub account when prompted.
 
 ### 2. Creating a GitHub Repository
+
 Follow these steps to create a repository with a structured naming convention:
 
 1. Log in to your GitHub account.
@@ -25,6 +29,7 @@ Follow these steps to create a repository with a structured naming convention:
    ```
    ds-book-name-year-city-publisher
    ```
+
    Example:
    ```
    ds-introduction-to-islam-2005-karachi-darul-ishaat
@@ -34,6 +39,7 @@ Follow these steps to create a repository with a structured naming convention:
 6. Click **Create Repository**.
 
 ### 3. Editing the `README.md` File
+
 1. Navigate to the newly created repository.
 2. Click on the `README.md` file.
 3. Click on the **Edit** button (pencil icon).
@@ -44,6 +50,7 @@ Follow these steps to create a repository with a structured naming convention:
 5. Click **Commit Changes** to save the update.
 
 ### 4. Downloading the Repository Using GitHub Desktop
+
 1. Open GitHub Desktop and log in to your GitHub account.
 2. Click on **File > Clone Repository**.
 3. Select the repository from the list or enter the repository URL.
@@ -51,6 +58,7 @@ Follow these steps to create a repository with a structured naming convention:
 5. Click **Clone** to download the repository.
 
 ### 5. Creating Required Folders and Adding `.gitkeep` Files
+
 1. Navigate to the cloned repository folder on your local machine.
 2. Create the following folders inside the repository:
    - `pdf`
@@ -58,11 +66,16 @@ Follow these steps to create a repository with a structured naming convention:
    - `txt`
    - `json`
 3. Inside each folder, create an empty `.gitkeep` file to ensure the folder is included in version control.
-   - Or run following commond. Open a terminal or command prompt and run:
+   - Or run following command. Open a terminal or command prompt and run:
      ```sh
      touch pdf/.gitkeep png/.gitkeep txt/.gitkeep json/.gitkeep
      ```
-4. Use command below to upload PDFs to Commit and push the changes to GitHub or use **GitHub Desktop** to publish changes (See below):
+5. In `README.md` add following section:
+   ```md
+   Type: `<Type of dataset i.e. File , Scrape, Manual>`
+   URL: `<URL of for example PDF File website, Scrapped website URL>`
+   ```
+6. Use command below to upload PDFs to Commit and push the changes to GitHub or use **GitHub Desktop** to publish changes (See below):
    ```sh
    git add .
    git commit -m "Added required folders and .gitkeep files"
@@ -70,6 +83,7 @@ Follow these steps to create a repository with a structured naming convention:
    ```
 
 ### 6. Committing and Pushing Changes Using GitHub Desktop
+
 1. Open GitHub Desktop and navigate to the cloned repository.
 2. Make the necessary changes or add files to the repository.
 3. In GitHub Desktop, you will see the changed files listed in the **Changes** tab.
