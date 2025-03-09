@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../blog"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"requirment"
+		]
+	}
+}
