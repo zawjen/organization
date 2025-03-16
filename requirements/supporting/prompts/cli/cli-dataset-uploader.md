@@ -8,7 +8,7 @@ The CLI built using following tech stack
 Feature Details
 - All classes must be under sdk folder
 - Program should start from main.py
-- A command line argument class that accepts following arguments. Create a table in document.
+- A command line argument CliArgs class that accepts following arguments. Create a table in document.
     - --folders: Optional comma separated list of JSON dataset folder paths
     - --files: Optional comma separated list of JSON dataset file paths
     - --host: Elasticsearch host (e.g., "localhost", "192.168.1.100")
@@ -23,7 +23,7 @@ Feature Details
 - A class which iterates over list of folders and files and create threads to upload JSON files in ElasticSearch
 - if ndjson=n then convert JSON to NDJSON before batch upload
 - A class to upload JSON files to specified index. Send batches of batch-size documents at a time. if batch-size is not specified upload data in batches of 5,000 - 10,000 documents per request.
-- Time spend on important or long running steps should be logged using a log class which will have log(self, message, start_time) to calculate time_spent
+- Time spend on important or long running steps should be logged using a Logger class which will have log(self, message, start_time) to calculate time_spent
 - if username and password are specified, use them to connect to Elasticsearch. If api-key is specified, use it to connect to Elasticsearch
 - Follow zawjen.net coding convention and clean coding principals
 - Write 100% coverage unit tests

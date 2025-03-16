@@ -12,7 +12,7 @@ Feature Details
     - --download-folder: Optional Location to download scrapped website
     - --url: Required comma separated list of Url of websites to download
     - --threads: Optional number of concurrent threads to be used for scrapping. Default is 5
-- Time spend on important or long running steps should be logged using a logger class which will have log(self, message, start_time) to calculate time_spent
+- Time spend on important or long running steps should be logged using a Logger class which will have log(self, message, start_time) to calculate time_spent
 - if download-folder is specified, use that folder to save scrapped files. Create folder if it does not exists
 - A Downloader class to download from specified urls in multithreaded way. Respect the website’s robots.txt file and make sure not to overload the server with thread more than specified in robots.txt of website. 
 - Each link of every page should be downloaded, possibly in a separate thread as specified in argument --threads. If --threads is not specified, the default should be 5 or less than or equal to specified in robots.txt

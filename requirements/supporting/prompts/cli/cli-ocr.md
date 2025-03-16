@@ -12,7 +12,7 @@ Feature Details
     - --pdf-file: Optional Location of PDF file for OCR
     - --lang: Required language of PDF
     - --threads: Optional number of concurrent threads to be used for OCR. Default is 5
-- Time spend on important or long running steps should be logged using a logger class which will have log(self, message, start_time) to calculate time_spent
+- Time spend on important or long running steps should be logged using a Logger class which will have log(self, message, start_time) to calculate time_spent
 - if pdf-folder is specified, use that folder to perform OCR on all PDF files in that folder. 
 - if pdf-file is specified, use that file to perform OCR. 
 - Use lang to select language of OCR Engine. 
